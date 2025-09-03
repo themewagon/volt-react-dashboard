@@ -93,10 +93,8 @@ export default () => {
                 <Nav.Link as={HashLink} to="#pages">Pages</Nav.Link>
                 <Nav.Link as={HashLink} to="#folder" className="d-sm-none d-xl-inline">Folder Structure</Nav.Link>
                 <Nav.Link as={HashLink} to="#getting-started">Getting Started</Nav.Link>
-                <Nav.Link as={HashLink} to="#download">Upgrade to Pro</Nav.Link>
               </Nav>
             </Navbar.Collapse>
-            <Button as={HashLink} to="#download" variant="outline-white" className="ms-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
           </div>
         </Container>
       </Navbar>
@@ -111,7 +109,7 @@ export default () => {
                 <Button variant="secondary" as={Link} to={Routes.DashboardOverview.path} className="text-dark me-3">
                   Explore dashboard <FontAwesomeIcon icon={faExternalLinkAlt} className="d-none d-sm-inline ms-1" />
                 </Button>
-                <GitHubButton className="mt-lg-2" href="https://github.com/themesberg/volt-react-dashboard" data-size="large" data-show-count="true" aria-label="Star themesberg/volt-react-dashboard on GitHub">Star</GitHubButton>
+                <GitHubButton className="mt-lg-2" href="https://github.com/themewagon/volt-react-dashboard" data-size="large" data-show-count="true" aria-label="Star themesberg/volt-react-dashboard on GitHub">Star</GitHubButton>
               </div>
               <div className="d-flex justify-content-center flex-column mb-6 mb-lg-5 mt-5">
                 <div className="text-center">
@@ -414,7 +412,7 @@ export default () => {
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
-                <Button href="https://themesberg.com/product/dashboard/volt-react" target="_blank" variant="primary" className="w-100 m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
+                <Button href="https://github.com/themewagon/volt-react-dashboard" target="_blank" variant="primary" className="w-100 m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
               </Card>
             </Col>
             <Col xs={12} md={6} lg={4} className="mb-5 mb-lg-0">
@@ -455,7 +453,7 @@ export default () => {
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
-                <Button href="https://demo.themesberg.com/volt-pro-react/#/" target="_blank" variant="secondary" className="w-100 m-0 mt-3">Demo Volt React Pro <FontAwesomeIcon icon={faExternalLinkAlt} className="ms-1" /></Button>
+                <Button href="#" target="_blank" variant="secondary" className="w-100 m-0 mt-3">Demo Volt React Pro <FontAwesomeIcon icon={faExternalLinkAlt} className="ms-1" /></Button>
               </Card>
             </Col>
           </Row>
@@ -463,13 +461,13 @@ export default () => {
             <Col xs={12} className="text-center">
               <h2 className="h5 text-gray fw-normal mb-4">Available in the following technologies:</h2>
               <div>
-                <Card.Link href="https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard" target="_blank" className="me-3">
+                <Card.Link href="#" target="_blank" className="me-3">
                   <OverlayTrigger placement="top" trigger={['hover', 'focus']} overlay={<Tooltip>Bootstrap 5 · The most popular HTML, CSS, and JS library in the world.</Tooltip>}>
                     <Image src={BS5Logo} className="image image-sm" />
                   </OverlayTrigger>
                 </Card.Link>
 
-                <Card.Link href="https://themesberg.com/product/dashboard/volt-react" target="_blank" className="me-3">
+                <Card.Link href="#" target="_blank" className="me-3">
                   <OverlayTrigger placement="top" trigger={['hover', 'focus']} overlay={<Tooltip>React · A JavaScript library for building user interfaces.</Tooltip>}>
                     <Image src={ReactLogo} className="image image-sm" />
                   </OverlayTrigger>
@@ -492,10 +490,10 @@ export default () => {
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
               <span className="h5">Themesberg</span>
               <ul className="links-vertical mt-2">
-                <li><Card.Link target="_blank" href="https://themesberg.com/blog">Blog</Card.Link></li>
-                <li><Card.Link target="_blank" href="https://themesberg.com/products">Products</Card.Link></li>
-                <li><Card.Link target="_blank" href="https://themesberg.com/about">About Us</Card.Link></li>
-                <li><Card.Link target="_blank" href="https://themesberg.com/contact">Contact Us</Card.Link></li>
+                <li><Card.Link target="_blank" href="#">Blog</Card.Link></li>
+                <li><Card.Link target="_blank" href="#">Products</Card.Link></li>
+                <li><Card.Link target="_blank" href="#">About Us</Card.Link></li>
+                <li><Card.Link target="_blank" href="#">Contact Us</Card.Link></li>
               </ul>
             </Col>
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
@@ -505,7 +503,7 @@ export default () => {
                   <Card.Link as={Link} to={Routes.DocsQuickStart.path} target="_blank">Getting started</Card.Link>
                 </li>
                 <li><Card.Link as={Link} to={Routes.DocsChangelog.path} target="_blank">Changelog</Card.Link></li>
-                <li><Card.Link target="_blank" href="https://themesberg.com/licensing">License</Card.Link></li>
+                <li><Card.Link target="_blank" href="#">License</Card.Link></li>
               </ul>
             </Col>
             <Col xs={12} md={4} className="mb-5 mb-lg-0">
@@ -528,7 +526,7 @@ export default () => {
           <hr className="bg-gray my-5" />
           <Row>
             <Col className="mb-md-2">
-              <Card.Link href="https://themesberg.com" target="_blank" className="d-flex justify-content-center">
+              <Card.Link href="#" target="_blank" className="d-flex justify-content-center">
                 <Image src={ThemesbergLogo} height={35} className="d-block mx-auto mb-3" alt="Themesberg Logo" />
               </Card.Link>
               <div className="d-flex text-center justify-content-center align-items-center" role="contentinfo">
