@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/volt-react-dashboard/static/css/main.e2704268.chunk.css",
-    "main.js": "/volt-react-dashboard/static/js/main.cd93874d.chunk.js",
-    "main.js.map": "/volt-react-dashboard/static/js/main.cd93874d.chunk.js.map",
+    "main.css": "/volt-react-dashboard/static/css/main.d9e440ad.chunk.css",
+    "main.js": "/volt-react-dashboard/static/js/main.947020a0.chunk.js",
+    "main.js.map": "/volt-react-dashboard/static/js/main.947020a0.chunk.js.map",
     "runtime-main.js": "/volt-react-dashboard/static/js/runtime-main.fefcaadb.js",
     "runtime-main.js.map": "/volt-react-dashboard/static/js/runtime-main.fefcaadb.js.map",
     "static/css/2.e94d5e4c.chunk.css": "/volt-react-dashboard/static/css/2.e94d5e4c.chunk.css",
-    "static/js/2.87005eee.chunk.js": "/volt-react-dashboard/static/js/2.87005eee.chunk.js",
-    "static/js/2.87005eee.chunk.js.map": "/volt-react-dashboard/static/js/2.87005eee.chunk.js.map",
+    "static/js/2.633a569e.chunk.js": "/volt-react-dashboard/static/js/2.633a569e.chunk.js",
+    "static/js/2.633a569e.chunk.js.map": "/volt-react-dashboard/static/js/2.633a569e.chunk.js.map",
     "index.html": "/volt-react-dashboard/index.html",
-    "precache-manifest.3adedf222104357aa27c2fbcd14d69ed.js": "/volt-react-dashboard/precache-manifest.3adedf222104357aa27c2fbcd14d69ed.js",
+    "precache-manifest.63547968a0b5aa8563e3644fa12e07b2.js": "/volt-react-dashboard/precache-manifest.63547968a0b5aa8563e3644fa12e07b2.js",
     "service-worker.js": "/volt-react-dashboard/service-worker.js",
     "static/css/2.e94d5e4c.chunk.css.map": "/volt-react-dashboard/static/css/2.e94d5e4c.chunk.css.map",
-    "static/css/main.e2704268.chunk.css.map": "/volt-react-dashboard/static/css/main.e2704268.chunk.css.map",
-    "static/js/2.87005eee.chunk.js.LICENSE.txt": "/volt-react-dashboard/static/js/2.87005eee.chunk.js.LICENSE.txt",
+    "static/css/main.d9e440ad.chunk.css.map": "/volt-react-dashboard/static/css/main.d9e440ad.chunk.css.map",
+    "static/js/2.633a569e.chunk.js.LICENSE.txt": "/volt-react-dashboard/static/js/2.633a569e.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/volt-react-dashboard/static/media/404.85064a97.svg",
     "static/media/404.jpg": "/volt-react-dashboard/static/media/404.9ba4b7cb.jpg",
     "static/media/500.jpg": "/volt-react-dashboard/static/media/500.192d8f70.jpg",
@@ -57,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.fefcaadb.js",
     "static/css/2.e94d5e4c.chunk.css",
-    "static/js/2.87005eee.chunk.js",
-    "static/css/main.e2704268.chunk.css",
-    "static/js/main.cd93874d.chunk.js"
+    "static/js/2.633a569e.chunk.js",
+    "static/css/main.d9e440ad.chunk.css",
+    "static/js/main.947020a0.chunk.js"
   ]
 }
