@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/themesberg/volt-react-dashboard"
+    "url": "https://github.com/themewagon/volt-react-dashboard/"
   },
   "version": "1.0.1",
   "dependencies": {

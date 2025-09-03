@@ -68,10 +68,7 @@ export default () => {
                             <tr>
                                 <td className="border-0"></td>
                                 <td className="border-0">
-                                    <Button href="https://themesberg.com/product/dashboard/volt-react" target="_blank" variant="primary" className="m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
-                                </td>
-                                <td className="border-0">
-                                    <Button href="https://demo.themesberg.com/volt-pro-react/#/" target="_blank" variant="secondary" className="m-0 mt-3">Demo Volt React Pro <FontAwesomeIcon icon={faExternalLinkAlt} className="ms-1" /></Button>
+                                    <Button href="https://themewagon.com/themes/volt-react/" target="_blank" variant="primary" className="m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
                                 </td>
                             </tr>
                         </tbody>

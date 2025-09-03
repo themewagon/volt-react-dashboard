@@ -14,7 +14,7 @@ export default () => (
               <p className="fs-5 fw-light">Download files for Volt React Dashboard</p>
               <p>Use the following links to download Volt React Dashboard files:</p>
               <ul className="docs-list">
-                <li>Download <Card.Link href="https://themesberg.com/product/dashboard/volt-pro-react" target="_blank">Volt React Dashboard</Card.Link>.</li>
+                <li>Download <Card.Link href="https://themewagon.com/themes/volt-react/" target="_blank">Volt React Dashboard</Card.Link>.</li>
               </ul>
             </article>
           </Card.Body>

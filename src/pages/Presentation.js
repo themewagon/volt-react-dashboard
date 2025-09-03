@@ -113,10 +113,10 @@ export default () => {
               </div>
               <div className="d-flex justify-content-center flex-column mb-6 mb-lg-5 mt-5">
                 <div className="text-center">
-                  <a href="https://themesberg.com" target="_blank">
+                  <Link href="#">
                     <Image src={ThemesbergLogoIcon} height={25} width={25} className="mb-3" alt="Themesberg Logo" />
                     <p className="text-muted font-small m-0">A Themesberg production</p>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Col>
@@ -209,8 +209,8 @@ export default () => {
               <h2 className="d-flex align-items-center">Mapbox <Badge pill bg='secondary' text="dark" className="badge-md ms-3 mb-0 fs-6">Pro</Badge></h2>
               <p className="mb-3 lead fw-bold">Markers and cards integration with Leaflet.js</p>
               <p className="mb-4">You can use this map to add markers with custom cards and show them on a map using our custom MapBox integration with Leaflet.js</p>
-              <Button href="https://demo.themesberg.com/volt-pro-react/#/map" className="me-3" variant="secondary" target="_blank"><FontAwesomeIcon icon={faMapMarkedAlt} className="me-2" /> Demo Map</Button>
-              <Button href="https://demo.themesberg.com/volt-pro-react/#/plugins/map" variant="outline-primary" target="_blank"><FontAwesomeIcon icon={faBook} className="me-2" /> Guide</Button>
+              <Button href="#" className="me-3" variant="secondary" target="_blank"><FontAwesomeIcon icon={faMapMarkedAlt} className="me-2" /> Demo Map</Button>
+              <Button href="#" variant="outline-primary" target="_blank"><FontAwesomeIcon icon={faBook} className="me-2" /> Guide</Button>
             </Col>
             <Col lg={6} className="order-lg-1">
               <Image src={MapboxImg} alt="MapBox Leaflet.js Custom Integration Mockup" />
@@ -225,8 +225,8 @@ export default () => {
               <p className="mb-4">
                 We created a fully editable calendar where you can add, edit and delete events for your admin dashboard.
               </p>
-              <Button href="https://demo.themesberg.com/volt-pro-react/#/calendar" className="me-3" variant="secondary" target="_blank"><FontAwesomeIcon icon={faCalendarAlt} className="me-2" /> Demo Calendar</Button>
-              <Button href="https://demo.themesberg.com/volt-pro-react/#/plugins/calendar" variant="outline-primary" target="_blank"><FontAwesomeIcon icon={faBook} className="me-2" /> Guide</Button>
+              <Button href="#" className="me-3" variant="secondary" target="_blank"><FontAwesomeIcon icon={faCalendarAlt} className="me-2" /> Demo Calendar</Button>
+              <Button href="#" variant="outline-primary" target="_blank"><FontAwesomeIcon icon={faBook} className="me-2" /> Guide</Button>
             </Col>
             <Col lg={6}>
               <Image src={CalendarImg} alt="Calendar Preview" />

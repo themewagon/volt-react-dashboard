@@ -21,17 +21,6 @@ export default () => (
                 <li>Most popular CSS Framework <Card.Link href="https://getbootstrap.com/" target="_blank">Bootstrap</Card.Link></li>
                 <li>Awesome CSS preprocessor <Card.Link href="https://sass-lang.com/" target="_blank">Sass</Card.Link></li>
               </ul>
-
-              <h2 id="getting-support">Getting support</h2>
-              <p>We offer 6 months of support by default for each purchased template. Please <Card.Link href="https://themesberg.com/contact" target="_blank">contact us</Card.Link> and we&rsquo;ll get back to you in no time!</p>
-
-              <h2 id="community">Community</h2>
-              <ul className="docs-list">
-                <li>Follow <Card.Link href="https://twitter.com/themesberg" target="_blank">@themesberg on Twitter</Card.Link>.</li>
-                <li>Follow <Card.Link href="https://facebook.com/themesberg" target="_blank">Themesberg on Facebook</Card.Link>.</li>
-                <li>Read and subscribe to <Card.Link href="https://themesberg.com/blog" target="_blank">The Official Themesberg Blog</Card.Link>.</li>
-                <li>Follow latest open source projects on our <Card.Link href="https://github.com/themesberg" target="_blank">Github Page</Card.Link></li>
-              </ul>
             </article>
           </Card.Body>
         </Card>
