@@ -412,7 +412,7 @@ export default () => {
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
-                <Button href="https://github.com/themewagon/volt-react-dashboard" target="_blank" variant="primary" className="w-100 m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
+                <Button href="https://themewagon.com/themes/volt-react/" target="_blank" variant="primary" className="w-100 m-0 mt-3 mb-3"><FontAwesomeIcon icon={faDownload} className="me-1" /> Download</Button>
               </Card>
             </Col>
             <Col xs={12} md={6} lg={4} className="mb-5 mb-lg-0">
@@ -453,7 +453,7 @@ export default () => {
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
-                <Button href="#" target="_blank" variant="secondary" className="w-100 m-0 mt-3">Demo Volt React Pro <FontAwesomeIcon icon={faExternalLinkAlt} className="ms-1" /></Button>
+                <Button href="#" variant="secondary" className="w-100 m-0 mt-3">Demo Volt React Pro <FontAwesomeIcon icon={faExternalLinkAlt} className="ms-1" /></Button>
               </Card>
             </Col>
           </Row>
@@ -461,17 +461,17 @@ export default () => {
             <Col xs={12} className="text-center">
               <h2 className="h5 text-gray fw-normal mb-4">Available in the following technologies:</h2>
               <div>
-                <Card.Link href="#" target="_blank" className="me-3">
+                <Link href="#" className="me-3">
                   <OverlayTrigger placement="top" trigger={['hover', 'focus']} overlay={<Tooltip>Bootstrap 5 · The most popular HTML, CSS, and JS library in the world.</Tooltip>}>
                     <Image src={BS5Logo} className="image image-sm" />
                   </OverlayTrigger>
-                </Card.Link>
+                </Link>
 
-                <Card.Link href="#" target="_blank" className="me-3">
+                <Link href="#" className="me-3">
                   <OverlayTrigger placement="top" trigger={['hover', 'focus']} overlay={<Tooltip>React · A JavaScript library for building user interfaces.</Tooltip>}>
                     <Image src={ReactLogo} className="image image-sm" />
                   </OverlayTrigger>
-                </Card.Link>
+                </Link>
               </div>
             </Col>
           </Row>
@@ -490,20 +490,20 @@ export default () => {
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
               <span className="h5">Themesberg</span>
               <ul className="links-vertical mt-2">
-                <li><Card.Link target="_blank" href="#">Blog</Card.Link></li>
-                <li><Card.Link target="_blank" href="#">Products</Card.Link></li>
-                <li><Card.Link target="_blank" href="#">About Us</Card.Link></li>
-                <li><Card.Link target="_blank" href="#">Contact Us</Card.Link></li>
+                <li><Link href="#">Blog</Link></li>
+                <li><Link href="#">Products</Link></li>
+                <li><Link href="#">About Us</Link></li>
+                <li><Link href="#">Contact Us</Link></li>
               </ul>
             </Col>
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
               <span className="h5">Other</span>
               <ul className="links-vertical mt-2">
                 <li>
-                  <Card.Link as={Link} to={Routes.DocsQuickStart.path} target="_blank">Getting started</Card.Link>
+                  <Link as={Link} to={Routes.DocsQuickStart.path} target="_blank">Getting started</Link>
                 </li>
-                <li><Card.Link as={Link} to={Routes.DocsChangelog.path} target="_blank">Changelog</Card.Link></li>
-                <li><Card.Link target="_blank" href="#">License</Card.Link></li>
+                <li><Link as={Link} to={Routes.DocsChangelog.path} target="_blank">Changelog</Link></li>
+                <li><Link target="_blank" href="#">License</Link></li>
               </ul>
             </Col>
             <Col xs={12} md={4} className="mb-5 mb-lg-0">
