@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fbf154fca4a526341c2f97a81014b1c",
+    "revision": "30a11080b065a9f62b26642536c017ba",
     "url": "/volt-react-dashboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/volt-react-dashboard/static/css/2.e94d5e4c.chunk.css"
   },
   {
-    "revision": "29185bc56101dc3f319b",
+    "revision": "262cec8999a97a0487d1",
     "url": "/volt-react-dashboard/static/css/main.d9e440ad.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/volt-react-dashboard/static/js/2.814539a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29185bc56101dc3f319b",
-    "url": "/volt-react-dashboard/static/js/main.48e5e4bf.chunk.js"
+    "revision": "262cec8999a97a0487d1",
+    "url": "/volt-react-dashboard/static/js/main.5f796a6a.chunk.js"
   },
   {
     "revision": "321db94fc0ca3ce27330",
