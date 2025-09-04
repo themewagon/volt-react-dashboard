@@ -2,7 +2,7 @@
 
 #### Preview
 
- - [Demo](https://themewagon.github.io/volt-react-dashboard/dashboard/overview)
+ - [Demo](https://themewagon.github.io/volt-react-dashboard/#/dashboard/overview)
 
 #### Download
  - [Download from ThemeWagon](https://themewagon.com/themes/volt-react/)
